@@ -31,8 +31,6 @@ Here：https://vmail.dev
 
 ![](https://img.inke.app/file/3773b481c78c9087140b1.png) 
 
-然后，创建一个名为 `emails` 的表。
-
 选择您的数据库，您会看到“编辑表”按钮，点击并进入:
 
 ![](https://img.inke.app/file/d49086f9b450edd5a2cef.png) 
@@ -84,6 +82,8 @@ CREATE TABLE `emails` (
 
 **2.部署 email worker**
 
+在PowerShell操作需要下载 nodejs (https://nodejs.org/en) 和 pnpm (https://pnpm.io/zh/installation)
+
 ```bash
 git clone https://github.com/yesmore/vmail
 
@@ -91,6 +91,11 @@ cd vmail
 
 # 安装依赖
 pnpm install
+```
+
+pnpm
+```
+iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
 
 在 `vmail/apps/email-worker/wrangler.toml` 文件中填写必要的环境变量。
@@ -114,9 +119,9 @@ pnpm run deploy
 
 设置“Catch-all”动作为发送到emial worker。
 
-![](https://img.inke.app/file/fa39163411cd35fad0a7f.png) 
-
 **4.在 Vercel 或 fly.io 上部署 Remix 应用程序**
+
+导入项目页面
 
 确保在部署期间准备并填写以下环境变量（`.env.example`）：
 
@@ -152,11 +157,6 @@ pnpm run remix:dev
 ![](https://img.inke.app/file/e10af19334fd6a13b7d2e.png)
 
 以上，完成！
-
-## 交流群
-
-- 加微信 `yesmore_cc` 拉讨论群 (备注 vmail)
-- Discord: https://discord.gg/d68kWCBDEs
 
 <table>
   <tr>

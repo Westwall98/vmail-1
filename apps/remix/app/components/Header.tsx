@@ -10,7 +10,7 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>VMAIL.DEV</span>
+          <span>WESTWALL</span>
         </button>
       </Link>
 
@@ -26,7 +26,7 @@ export default function Header() {
       </Link>
       <Link
         className="ml-3 md:ml-8 "
-        to="https://www.producthunt.com/posts/vmail-2"
+        to="https://vmail.westwall.eu.org"
         target="_blank">
         <Follow />
       </Link>

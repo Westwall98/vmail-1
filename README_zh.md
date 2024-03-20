@@ -157,24 +157,3 @@ pnpm run remix:dev
 ![](https://img.inke.app/file/e10af19334fd6a13b7d2e.png)
 
 以上，完成！
-
-<table>
-  <tr>
-    <td>
-      <img src="https://img.inke.app/file/4bc1cb6681c3e5ff75150.jpg"/>
-    </td>
-    <td>
-      <img src="https://img.inke.app/file/711501f1ee488b3423aff.jpg"/>
-    </td>
-  </tr>
-</table>
-
-## License
-
-GNU General Public License v3.0
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yesmore/vmail&type=Date)](https://star-history.com/#yesmore/vmail&Date)
-
-Inspired by smail.pw & email.ml

@@ -14,22 +14,6 @@ export default function Header() {
         </button>
       </Link>
 
-      <Link
-        to="/about"
-        className="ml-auto text-sm md:text-base hidden md:block">
-        {t("About")}
-      </Link>
-      <Link
-        to="/privacy"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("Privacy")}
-      </Link>
-      <Link
-        className="ml-3 md:ml-8 "
-        to="https://vmail.westwall.eu.org"
-        target="_blank">
-        <Follow />
-      </Link>
     </div>
   );
 }

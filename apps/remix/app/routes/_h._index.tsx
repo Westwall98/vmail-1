@@ -184,8 +184,8 @@ export default function Index() {
                     theme: "dark",
                   }}
                 />
-              </div> */}
-            </div>
+              </div>
+            </div> */}
             <button
               type="submit"
               disabled={navigation.state != "idle"}

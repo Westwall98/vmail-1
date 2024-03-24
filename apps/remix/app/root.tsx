@@ -43,8 +43,9 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://blog.westwall.vip/upload/2024/03/ico.png" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <link rel="apple-touch-icon-precomposed" href="/vmail.svg" type="image/svg+xml" />
+        <link rel="icon" href="/vmail.svg" type="image/svg+xml" />
         <Meta />
         <Links />
         <script
